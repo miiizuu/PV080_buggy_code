@@ -44,7 +44,7 @@ def authenticate(password):
     # Assert that the password is correct
     if password != "Iloveyou":
         print("Invalid password!")
-        throw Exception
+        raise Exception()
 
     print("Successfully authenticated!")
 
